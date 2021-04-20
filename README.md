@@ -17,7 +17,7 @@
 
 <p align="left">
 <a href="https://github.com/Zzzxs/Zzzxs">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Zzzxs&show_icons=true&theme=slateorange&cache_seconds=86400" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Zzzxs&show_icons=true&theme=vue&cache_seconds=86400" />
 </a>
 </p>
 
