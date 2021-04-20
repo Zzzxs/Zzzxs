@@ -3,9 +3,11 @@
 ---
 ### About me
 -  `UnrealEngine` && `Unity` && `VR/AR`
- <font color=red size=72>颜色 </font>
 [![Cl0udG0d's github stats](https://github-readme-stats.vercel.app/api?username=Zzzxs&show_icons=true&theme=radical&cache_seconds=86400)](https://github.com/Zzzxs)
 
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=Zzzxs">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Zzzxs&show_icons=true&theme=radical&cache_seconds=86400" />
+</a>
 <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=Zzzxs">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zzzxs&layout=compact" />
 </a>
