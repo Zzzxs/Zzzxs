@@ -15,7 +15,7 @@
 </p>
 
 
-<p align="left">
+<p align="center">
 <a href="https://github.com/Zzzxs/Zzzxs">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Zzzxs&show_icons=true&theme=react&cache_seconds=86400" />
 </a>
