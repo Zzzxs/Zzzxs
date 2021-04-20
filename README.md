@@ -8,7 +8,8 @@
 
 ---
 
-# About me🔥🔥🔥🔥🔥<p align="right">
+# About me🔥🔥🔥🔥🔥
+<p align="right">
   <a href="https://www.unrealengine.com/"><img src="https://raw.githubusercontent.com/Zzzxs/Image/master/img/UE%E5%9B%BE%E6%A0%87%20(%E8%87%AA%E5%AE%9A%E4%B9%89).jpg" alt="UnrealEngine"></a>
   <a href="https://unity.cn/"><img src="https://raw.githubusercontent.com/Zzzxs/Image/master/img/unity%E5%9B%BE%E6%A0%87%20(%E8%87%AA%E5%AE%9A%E4%B9%89).jpg" alt="Unity"></a>
 </p>
@@ -20,14 +21,12 @@
 </a>
 </p>
 
-<p align="center">
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=dark" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat&theme=dark" />
 </a>
-</p>
 
 [![](https://img.shields.io/badge/OS-Arch%20Linux-33aadd?style=flat-square&logo=arch-linux&logoColor=ffffff)](https://www.archlinux.org/)
 [![](https://img.shields.io/badge/macOS-Hackintosh-292e33?style=flat-square&logo=apple&logoColor=ffffff)](https://www.tonymacx86.com/)
