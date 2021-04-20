@@ -11,11 +11,11 @@
   <a href="https://blog.csdn.net/qq_42907802"><img src="https://img.shields.io/badge/CSDN-cf000e" alt="csdn"></a>
 </p>
 
-<br>
+<p align="center">
 <a href="https://github.com/Zzzxs/Zzzxs">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Zzzxs&show_icons=true&theme=radical&cache_seconds=86400" />
 </a>
-<br/>
+</p>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats" />
