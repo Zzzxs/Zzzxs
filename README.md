@@ -1,5 +1,6 @@
 <h2 align="center">👋 欢迎访问我的GitHub</h2>
 ![](https://raw.githubusercontent.com/Zzzxs/Image/master/img/%E6%BC%AB%E7%94%BB%E8%83%8C%E6%99%AF%E8%A3%81%E5%88%87.jpg)
+<img align='center' src="https://raw.githubusercontent.com/Zzzxs/Image/master/img/%E6%BC%AB%E7%94%BB%E8%83%8C%E6%99%AF%E8%A3%81%E5%88%87.jpg" alt="背景"/>
 ---
 # About me🔥🔥🔥🔥🔥
 <p align="center">
