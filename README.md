@@ -22,6 +22,10 @@
 </p>
 
 <br>
+<br>
+<br>
+<br>
+<br>
 <p align="center">
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=dark" />
@@ -31,6 +35,10 @@
 </a>
 </p>
 
+</br>
+</br>
+</br>
+</br>
 </br>
 
 [![](https://img.shields.io/badge/OS-Arch%20Linux-33aadd?style=flat-square&logo=arch-linux&logoColor=ffffff)](https://www.archlinux.org/)
