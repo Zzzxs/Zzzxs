@@ -1,0 +1,247 @@
+/* ==UserStyle==
+@name         yuque-article-style
+@version      20211223.01.27
+@namespace    userstyles.world/user/zzzxs
+@description  a css style to make yuque atricle view comfortably.
+@author       zzzxs
+@license      No License
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.yuque.com/zzzxs/") {
+/* author: zzzxs */
+
+/* 整体样式，字体-背景 */
+div[class*="DocReader-module_content"],
+.ne-editor-body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif!important;
+    background-image: linear-gradient(90deg, rgba(60, 10, 30, .04) 3%, transparent 0), linear-gradient(1turn, rgba(60, 10, 30, .04) 3%, transparent 0);
+    background-size: 20px 20px;
+    background-position: 50%;
+}
+/* ------------------------------------- 阅读状态 -------------------------------------------*/
+/* 标题颜色修改 */
+#article-title,
+.lake-title {
+    color: #4169e1!important;
+}
+.ne-viewer-body ne-h1,
+.ne-viewer-body ne-h2,
+.ne-viewer-body ne-h3,
+.ne-viewer-body ne-h4,
+.ne-viewer-body ne-h5,
+.ne-viewer-body ne-h6,
+.ne-viewer-body ne-h7 {
+    color: #4169e1;
+    border-left: 4px solid;
+    padding: 0 0 0 10px;
+}
+/* 文本 */
+.ne-viewer-body div,
+.ne-viewer-body p,
+.ne-viewer-body textarea,
+.ne-viewer-body ne-text {
+    color: #595959;
+}
+/* 标题颜色，加粗 */
+.ne-viewer-body ne-heading-content ne-text {
+    color: #4169e1;
+    font-weight: 600;
+}
+/* h1 */
+.ne-viewer-body ne-h1 {
+    border-left: none;
+    border-bottom: 2px solid #4169e1;
+    padding: 0;
+}
+.ne-viewer-body ne-h1 ne-text {
+    background: #4169e1;
+    color: #fff;
+    margin: 0 3px 0 0;
+    padding: 3px 10px 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+/* 链接加粗 */
+.ne-viewer-body a ne-text,
+ne-link ne-text {
+    font-weight: 600;
+}
+.ne-link:hover {
+    border-bottom: 1px solid #4169e1;
+}
+/* 特殊提示框偏移量 */
+.ne-viewer-body ne-alert[ne-alert-type="tips"]:before,
+.ne-viewer-body ne-alert[ne-alert-type="info"]:before,
+.ne-viewer-body ne-alert[ne-alert-type="success"]:before,
+.ne-viewer-body ne-alert[ne-alert-type="warning"]:before,
+.ne-viewer-body ne-alert[ne-alert-type="danger"]:before {
+    left: 148px;
+}
+/* ------------------------------------- 编辑状态 -------------------------------------------*/
+/* 标题 */
+.ne-editor-body ne-h1,
+.ne-editor-body ne-h2,
+.ne-editor-body ne-h3,
+.ne-editor-body ne-h4,
+.ne-editor-body ne-h5,
+.ne-editor-body ne-h6,
+.ne-editor-body ne-h7 {
+    color: #4169e1;
+    border-left: 4px solid;
+    padding: 0 0 0 10px;
+}
+/* 文本 */
+.ne-editor-body div,
+.ne-editor-body p,
+.ne-editor-body span,
+.ne-editor-body textarea {
+    color: #595959;
+}
+/* 标题颜色，加粗 */
+.ne-editor-body ne-heading-content ne-text {
+    color: #4169e1;
+    font-weight: 600;
+}
+/* h1 */
+.ne-editor-body ne-h1 {
+    border-left: none;
+    border-bottom: 2px solid #4169e1;
+    padding: 0;
+}
+.ne-editor-body ne-h1 ne-text {
+    background: #4169e1;
+    color: #fff;
+    margin: 0 3px 0 0;
+    padding: 3px 10px 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+/* 链接加粗 */
+.ne-editor-body ne-link ne-text {
+    font-weight: 600;
+}
+.ne-editor-body ne-link ne-text::before {
+    content: '⌕';
+    font-size: 18px;
+}
+/* 链接样式 */
+.ne-editor-body ne-link ne-text::before {
+    content: '⌕';
+    font-size: 18px;
+}
+ne-link:hover {
+    border-bottom: 1px solid #4169e1;
+}
+/* 特殊提示框偏移量 */
+.ne-editor-body ne-alert[ne-alert-type="tips"]:before,
+.ne-editor-body ne-alert[ne-alert-type="info"]:before,
+.ne-editor-body ne-alert[ne-alert-type="success"]:before,
+.ne-editor-body ne-alert[ne-alert-type="warning"]:before,
+.ne-editor-body ne-alert[ne-alert-type="danger"]:before {
+    left: 508px;
+}
+/* ------------------------------------- 其他 -------------------------------------------*/
+/* 行内代码 */
+ne-code-content {
+    font-size: .9em;
+    padding: .15em .2em!important;
+    background-color: #6AC5FD!important;
+    /*border: 2px solid #595959;*/
+    border: none;
+    border-radius: 0.25rem;
+    
+    margin: 0px 3px 0px 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ne-code-content ne-text {
+    color: rgb(255, 255, 255)!important;
+    font-weight:bold;
+}
+/* 代码块 */
+ne-card[data-card-name="codeblock"] {
+    border: none !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+/* 提示块，ne-alert */
+ne-alert[ne-alert-type="tips"],
+ne-alert[ne-alert-type="info"],
+ne-alert[ne-alert-type="success"],
+ne-alert[ne-alert-type="warning"],
+ne-alert[ne-alert-type="danger"] {
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: 4px solid;
+    background-color: #f7f7f7;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding-left: 20px;
+}
+ne-alert[ne-alert-type="tips"] ne-text,
+ne-alert[ne-alert-type="info"] ne-text,
+ne-alert[ne-alert-type="success"] ne-text,
+ne-alert[ne-alert-type="warning"] ne-text,
+ne-alert[ne-alert-type="danger"] ne-text {
+    font-weight: bold;
+}
+ne-alert[ne-alert-type="tips"]:before,
+ne-alert[ne-alert-type="info"]:before,
+ne-alert[ne-alert-type="success"]:before,
+ne-alert[ne-alert-type="warning"]:before,
+ne-alert[ne-alert-type="danger"]:before {
+    position: absolute;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+}
+ne-alert[ne-alert-type="tips"] {
+    border-left-color: #a6a6a6;
+}
+ne-alert[ne-alert-type="tips"]:before {
+    content: "i";
+    background: #a6a6a6;
+}
+ne-alert[ne-alert-type="info"] {
+    border-left-color: #6ac5fd;
+}
+ne-alert[ne-alert-type="info"]:before {
+    content: "?";
+    background: #6ac5fd;
+}
+ne-alert[ne-alert-type="success"] {
+    border-left-color: #42b983;
+}
+ne-alert[ne-alert-type="success"]:before {
+    content: "✔";
+    background: #42b983;
+}
+ne-alert[ne-alert-type="warning"] {
+    border-left-color: #ffa500;
+}
+ne-alert[ne-alert-type="warning"]:before {
+    content: "!";
+    background: #ffa500;
+}
+ne-alert[ne-alert-type="danger"] {
+    border-left-color: #f66;
+}
+ne-alert[ne-alert-type="danger"]:before {
+    content: "✘";
+    background: #f66;
+}
+/* 表格 */
+tbody tr:first-child td {
+    background-color: #d9ede5;
+}
+tbody tr:first-child td ne-text {
+    color: #0f111a;
+    font-weight: 600;
+}
+
+}
